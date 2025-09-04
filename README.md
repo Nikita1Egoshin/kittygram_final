@@ -57,7 +57,7 @@ DB_PORT=5432
 - `TELEGRAM_TO`, `TELEGRAM_TOKEN`
 
 ## CI/CD
-Workflow расположен в файле `kittygram_workflow.yml`. Он:
+Workflow расположен в файле `kittygram_workflow.yml`. 
 - запускает тесты бекенда и фронтенда;
 - собирает и публикует образы в Docker Hub;
 - разворачивает контейнеры на сервере с помощью `docker-compose.production.yml`.
