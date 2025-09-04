@@ -25,6 +25,8 @@ services:
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static:/frontend_static/
+    depends_on:
+      - backend
 
   gateway:
     image: nikgash/kittygram_gateway
